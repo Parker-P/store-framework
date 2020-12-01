@@ -10,7 +10,8 @@
       "flex-layout.col",
       "shelf",
       "slider-layout#home",
-      "responsive-layout"
+      "responsive-layout.desktop#desktop",
+      "responsive-layout.mobile#mobile"
     ]
   },
 
@@ -120,7 +121,7 @@
   {
     "props": 
     {
-      "text": "# <h3> Your Coffee, Your Way </h3>\n ### <h4> New Coffee Makers Collection </h4>",
+      "text": "<h3> # Your Coffee, Your Way </h3>\n <h4> ### New Coffee Makers Collection </h4>",
       "textPosition": "CENTER",
       "textAlignment": "CENTER"
     }
