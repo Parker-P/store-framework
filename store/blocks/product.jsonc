@@ -53,7 +53,7 @@
     "props": 
     {
       "showSavings": true,
-      "showListPrice": false
+      "showListPrice": true
     }
   },
 
