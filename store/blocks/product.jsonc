@@ -31,12 +31,12 @@
   {
     "props":
     {
-      "verticalAlign": "CENTER",
-      "preventVerticalStretch": "true"
+      "verticalAlign": "middle",
+      "preventVerticalStretch": true
     },
     "children": 
     [
-      "product-name", "product-price", "buy-button#product"
+      "product-name", "product-price", "buy-button"
     ]
   },
 
@@ -57,7 +57,7 @@
     }
   },
 
-  "buy-button#product": 
+  "buy-button": 
   {
     "props": 
     {
