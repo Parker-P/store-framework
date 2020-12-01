@@ -1,16 +1,18 @@
+//JSONC files are a superset of JSON and they support comments. JSONCommented.
 {
-  "store.home": 
+  "store.home": //This is a template
   { 
     "blocks": 
     [
       "info-card#button-right",
       "info-card#button-left",
       "flex-layout.row",
-      "flex-layout.col"
+      "flex-layout.col",
+      "shelf"
     ]
   },
 
-  "info-card#button-right": 
+  "info-card#button-right": //This a block component included in the store.home template
   {
     "props": 
     {
@@ -27,7 +29,7 @@
     }
   },
 
-  "info-card#button-left": 
+  "info-card#button-left": //This a block component included in the store.home template
   {
     "props": 
     {
@@ -44,7 +46,7 @@
     }
   },
 
-  "flex-layout.row":
+  "flex-layout.row": //This a block component included in the store.home template
   {
     "children": 
     [
@@ -53,7 +55,7 @@
     ]
   },
   
- "info-card#rethink": 
+ "info-card#rethink": //This a child of flex-layout.row
  {
     "props": 
     {
@@ -65,13 +67,8 @@
     }
   },
   
-  "flex-layout.col": 
+  "flex-layout.col":  //This a child of flex-layout.row
   {
-    "props": 
-    {
-      "text": "I'll be deleted soon"
-    },
-
     "children":
     [
       "image#electronics",
@@ -87,6 +84,7 @@
       "maxWidth": "100%"
     }
   },
+
   "image#major-appliance": 
   {
     "props": 

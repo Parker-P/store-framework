@@ -1,0 +1,21 @@
+{
+    "shelf": 
+    {
+        "blocks": ["product-summary.shelf"], //Vtex already knows what this block is when reading this file. No need to declare it here
+        "props": 
+        {
+            "category": 1,
+            "orderBy": "OrderByTopSaleDESC",
+            "paginationDotsVisibility": "desktopOnly",
+            "productList": 
+            {
+                "maxItems": 8,
+                "itemsPerPage": 4,
+                "minItemsPerPage": 1,
+                "scroll": "BY_PAGE",
+                "arrows": true,
+                "titleText": "Top sellers"
+            }
+        }
+    }
+}
