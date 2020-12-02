@@ -50,7 +50,8 @@
     "children":
     [
       "sku-selector",
-      "product-quantity"
+      "product-quantity",
+      "shipping-simulator"
     ]
   },
 
