@@ -128,7 +128,8 @@
       "muted-4": "#e3e4e6",
       "muted-5": "#f2f4f5"
     },
-    "text": {
+    "text": 
+    {
       "action-primary": "#52BAB7",
       "action-secondary": "#eef3f7",
       "link": "#52BAB7",
