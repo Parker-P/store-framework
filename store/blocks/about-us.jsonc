@@ -3,7 +3,8 @@
     {
         "blocks":
         [
-            "flex-layout.row#about-us"
+            "flex-layout.row#about-us",
+            "tab-layout#home"
         ]
     },
 
@@ -15,6 +16,7 @@
           "flex-layout.col#text-about-us"
         ]
     },
+
     "flex-layout.col#text-about-us": 
     {
         "children": 
@@ -27,6 +29,7 @@
             "preventVerticalStretch": true
         }
     },
+
     "rich-text#about-title": 
     {
         "props": 
@@ -34,20 +37,107 @@
             "text": "# About FlatFlat"
         }
     },
+
     "rich-text#about-content": 
     {
         "props": 
         {
             "text":
-            " FlatFlat is an electronics store with a long standing tradition for creating modern and vintage items. Out objective is to create home appliances that make your house stand out, no matter your style. Merely 2 months old, we're already the store with the most beautiful products among all VTEX stores. We are currently building our site with the aim of giving our customers an unforgetable experience with our brand!"
+            " FlatFlat is an electronics store with a long standing tradition for creating modern and vintage items. Our objective is to create home appliances that make your house stand out, no matter your style. Merely 2 months old, we're already the store with the most beautiful products among all VTEX stores. We are currently building our site with the aim of giving our customers an unforgettable experience with our brand!"
         }
     },
+
     "image#about-us": 
     {
         "props": 
         {
             "src": "https://appliancetheme.vteximg.com.br/arquivos/cozinha-about-us.png",
             "maxHeight": "600px"
+        }
+    },
+
+    "tab-layout#home":
+    {
+        "children":
+        [
+            "tab-list#home",
+            "tab-content#home"
+        ]
+    },
+
+    "tab-list#home": 
+    {
+        "children": 
+        [
+            "tab-list.item#home1",
+            "tab-list.item#home2"
+        ]
+    },
+
+    "tab-list.item#home1":
+    {
+        "props":
+        {
+            "label": "Major Appliances",
+            "tabId": "majorAppliances",
+            "defaultActiveTab": true
+        }
+    },
+
+    "tab-list.item#home2":
+    {
+        "props":
+        {
+            "label": "Electronics",
+            "tabId": "electronics",
+            "defaultActiveTab": true
+        }
+    },
+
+    "tab-content#home": 
+    {
+        "children": 
+        [
+          "tab-content.item#1",
+          "tab-content.item#2"
+        ]
+    },
+
+    "tab-content.item#1":
+    {
+        "children": ["rich-text#home1"],
+        "props":
+        {
+            "tabId": "majorAppliances"
+        }
+    },
+
+    "tab-content.item#2":
+    {
+        "children": ["rich-text#home2"],
+        "props":
+        {
+            "tabId": "electronics"
+        }
+    },
+
+    "rich-text#home1": 
+    {
+        "props": 
+        {
+            "text": "### Area of tab content with tabId = majorAppliances",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
+        }
+    },
+
+    "rich-text#home2": 
+    {
+        "props": 
+        {
+            "text": "### Area of tab content with tabId = electronics",
+            "textPosition": "CENTER",
+            "font": "t-heading-3"
         }
     }
 }
