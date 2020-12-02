@@ -1,0 +1,34 @@
+{
+    "store.custom#landing": 
+    { 
+      "blocks": 
+      [
+        "image#landingbanner", 
+        "search-result-layout.customQuery"
+      ]
+    },
+
+    "image#landingbanner":
+    {
+        "props":
+        {
+            "minWidth": "100%",
+            "src": "https://i.picsum.photos/id/682/800/800.jpg?hmac=kcQSqAfySIzJeRtM-J6Ep9bD0hnnvgpnmvHDyVRHA-g"
+        }
+    },
+
+    "search-result-layout.customQuery":
+    {
+        "props":
+        {
+            "querySchema": {
+                "orderByField": "OrderByReleaseDateDESC",
+                "hideUnavailableItems": true,
+                "maxItemsPerPage": 8,
+                "queryField": "Camera",
+                "mapField": "ft",
+                "skusFilter": "ALL_AVAILABLE"
+            }
+        }
+    }
+  }
