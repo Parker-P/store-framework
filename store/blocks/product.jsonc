@@ -40,8 +40,17 @@
       "product-name",
       "product-identifier.product", 
       "product-price",
-      "flex-layout.row#qty-sku", 
+      "flex-layout.row", 
       "buy-button"
+    ]
+  },
+
+  "flex-layout.row":
+  {
+    "children": 
+    [ 
+      "product-price",
+      "flex-layout.row#qty-sku"
     ]
   },
 
@@ -77,7 +86,7 @@
 
   "sku-selector":
   {
-    
+
   },
 
   "product-quantity":
