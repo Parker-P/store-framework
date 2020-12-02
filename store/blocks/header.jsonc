@@ -1,3 +1,4 @@
+//This file contains the definition for the header when navigating (a sort of toolbar at the top of the page)
 {
     "header": 
     {
@@ -34,6 +35,16 @@
         "header-row#main-mobile",
         "header-row#search"
       ]
+    },
+
+    "header-row#menu": 
+    {
+        "children": 
+        [
+          "header-spacer",
+          "vtex.menu@2.x:menu#categories",
+          "header-spacer"
+        ]
     },
 
     "header-row#main": 
