@@ -42,14 +42,16 @@
         [
           "logo",
           "header-spacer",
+          "search-bar",
           "minicart",
           "login"
         ],
       
         "props": 
         {
+          "inverted": true,
           "sticky": true,
-          "inverted":true
+          "fullWidth": false
         }
     },
 
