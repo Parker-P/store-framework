@@ -55,6 +55,14 @@
         }
     },
 
+    "search-bar":
+    {
+      "props":
+      {
+          "compactMode": true
+      }  
+    },
+
     "header-row#notification": 
     {
         "children": 
