@@ -12,5 +12,19 @@
       {
         "orientation": "horizontal"
       }
+    },
+
+    "menu-item#major-appliances":
+    {
+      "children":
+      [
+        "menu-item#refrigerators",
+        "menu-item#ovens",
+        "menu-item#washers"
+      ],
+      "props":
+      {
+        "orientation": "vertical"
+      }
     }
 }
