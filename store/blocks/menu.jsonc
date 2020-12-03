@@ -18,9 +18,9 @@
     {
       "children":
       [
-        "menu-item#refrigerators",
-        "menu-item#ovens",
-        "menu-item#washers"
+        "vtex.menu@2.x:submenu#major",
+        "vtex.menu@2.x:submenu#small",
+        "vtex.menu@2.x:submenu#electronics"
       ],
       "props":
       {
@@ -30,7 +30,12 @@
 
     "vtex.menu@2.x:submenu#major": 
     {
-      
+      "children":
+      [
+        "menu-item#refrigerators", 
+        "menu-item#ovens", 
+        "menu-item#washers"
+      ]
     },
 
     "vtex.menu@2.x:submenu#small": 
